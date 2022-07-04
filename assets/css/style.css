@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+}
+
+.header1 {
+    background-color: #212121;
+    color: white;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.divLeft {
+    margin-left: 80px;
+}
+
+.divLeft i,
+.header2 i {
+    color: #ff3115;
+}
+
+.divRight {
+    margin-right: 80px;
+}
+
+.divRight i {
+    color: #888888;
+}
+
+.header2 {
+    justify-content: space-around;
+    color: #ffffff;
+    color: #212121;
+}
+
+.header2 i {
+    font-size: 40px;
+}
+
+nav {
+    background-color: #212121;
+    height: 50px;
+    justify-content: space-around;
+}
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #b6bbbb;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+a
+{
+    text-decoration: none;
+
+}
+
+
+.banner {
+    background-image: url("../images/school.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.banner h1 {
+    text-align: center;
+}
+
+.banner .btn button {
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+}
+
+.banner .btn :first-child {
+    background: #101010;
+    color: #fff;
+}
+
+.banner .btn :last-child {
+    background: #ff3115;
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+.apropos {
+    width: 88%;
+    height: auto;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.apropos .image-apropos {
+    position: relative;
+    width: 500px;
+    height: auto;
+}
+
+
+.apropos p {
+    position: relative;
+    width: 600px;
+    text-align: justify;
+    font-family: Poppins;
+}
+
+.apropos .text h1 {
+    font-weight: 400;
+    color: #ff3115;
+    margin: 1rem 0;
+}
+
+img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title,.teacher
+{
+    text-align: center;
+}
+
+.subject h2,footer h3
+{
+    color: #ff3115;  
+}
+
+.subject-option
+{
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.subject-option div
+{
+    width: 250px;
+    height: auto;
+}
+
+.option
+{
+    position:relative;
+    bottom: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.teacher
+{
+    margin-top: 60px;
+}
+
+.teacherItems
+{
+    justify-content: space-evenly;
+}
+
+.card 
+{
+    width: 230px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f2f1f8;
+    border-radius: 10px;
+}
+
+.card img
+{
+    border-radius: 10px 10px 0 0;
+}
+
+footer
+{
+    justify-content: space-around;
+    background-color: #212121;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+footer div
+{
+   width: 30%;
+}
+
+.socialIcons span{
+    border: #fff 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer p,ul
+{
+   color: #fff;
+}
+
+footer ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .btn
+{
+    background-color: #fff;
+}
+
+footer .btn input
+{
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+footer .btn input:last-child
+{
+    background-color: #ff3115;
+}
